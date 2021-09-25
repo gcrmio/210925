@@ -86,16 +86,16 @@ http.createServer(app).listen(app.get('port'), function(){
 
 
 
-const { Pool, Client } = require('pg');
+// const { Pool, Client } = require('pg');
 
-const pool = new Pool({
-    host: 'ec2-52-203-74-38.compute-1.amazonaws.com',
-    user: 'wgjgqytdjizusr',
-    password: 'ff8d9ae7ac3c1a64f3a1a2654cf134a708d57c79400b7c420f9dfa39ff24f6c8',  
-    database: 'd841858886d6en',
-    port: 5432,
-    ssl: { rejectUnauthorized: false },
-});
+// const pool = new Pool({
+//     host: 'ec2-52-203-74-38.compute-1.amazonaws.com',
+//     user: 'wgjgqytdjizusr',
+//     password: 'ff8d9ae7ac3c1a64f3a1a2654cf134a708d57c79400b7c420f9dfa39ff24f6c8',  
+//     database: 'd841858886d6en',
+//     port: 5432,
+//     ssl: { rejectUnauthorized: false },
+// });
 
 /*
 pool.query('INSERT INTO mms_list VALUES( $1, $2, $3)', ['10','999','MMM'], (err, res) => {

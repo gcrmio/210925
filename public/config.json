@@ -22,7 +22,7 @@
                 }               
             ],
             "outArguments": [],
-            "url": "https://mmstw2.herokuapp.com/journeybuilder/execute",
+            "url": "https://mms-210925.herokuapp.com/journeybuilder/execute",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -33,7 +33,7 @@
     "configurationArguments": {
       "applicationExtensionKey": "e5a2b753-7426-4764-a41f-4a6c848e53ee",
        "save": {
-           "url": "https://mmstw2.herokuapp.com/journeybuilder/save",
+           "url": "https://mms-210925.herokuapp.com/journeybuilder/save",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -41,7 +41,7 @@
             "timeout": 2000
        },
        "publish": {
-           "url": "https://mmstw2.herokuapp.com/journeybuilder/publish",
+           "url": "https://mms-210925.herokuapp.com/journeybuilder/publish",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -49,7 +49,7 @@
             "timeout": 2000
        },
        "validate": {
-           "url": "https://mmstw2.herokuapp.com/journeybuilder/validate",
+           "url": "https://mms-210925.herokuapp.com/journeybuilder/validate",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -57,7 +57,7 @@
             "timeout": 2000
        },
        "stop": {
-           "url": "https://mmstw2.herokuapp.com/journeybuilder/stop",
+           "url": "https://mms-210925.herokuapp.com/journeybuilder/stop",
             "verb": "POST",
             "body": "",
             "format": "json",
