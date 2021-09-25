@@ -80,7 +80,10 @@ exports.save = function (req, res) {
 exports.execute = function (req, res) {
 
     console.log("Execute");	
-
+    
+    console.log('*****************************************************************');
+    console.log(req.body);
+    console.log('#################################################################');
      JWT(req.body, process.env.jwtSecret, (err, decoded) => {
 
          // verification error -> unauthorized request
@@ -88,9 +91,7 @@ exports.execute = function (req, res) {
              console.error(err);
              return res.status(401).end();
          }
-         console.log('*****************************************************************');
-         console.log(req.body);
-         console.log('#################################################################');
+
          if (decoded && decoded.inArguments && decoded.inArguments.length > 0) {
             
              // decoded in arguments
