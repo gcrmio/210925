@@ -88,7 +88,9 @@ exports.execute = function (req, res) {
              console.error(err);
              return res.status(401).end();
          }
-
+         console.log('*****************************************************************');
+         console.log(req.body);
+         console.log('#################################################################');
          if (decoded && decoded.inArguments && decoded.inArguments.length > 0) {
             
              // decoded in arguments
