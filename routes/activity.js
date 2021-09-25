@@ -80,11 +80,7 @@ exports.save = function (req, res) {
 exports.execute = function (req, res) {
 
     console.log("Execute");	
-    
-    console.log('*****************************************************************');
-    console.log(req.body);
-    console.log('#################################################################');
-    console.log(process.env.jwtSecret);
+
      JWT(req.body, process.env.jwtSecret, (err, decoded) => {
 
          // verification error -> unauthorized request
