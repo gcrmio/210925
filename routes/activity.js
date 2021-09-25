@@ -84,6 +84,7 @@ exports.execute = function (req, res) {
     console.log('*****************************************************************');
     console.log(req.body);
     console.log('#################################################################');
+    console.log(process.env.jwtSecret);
      JWT(req.body, process.env.jwtSecret, (err, decoded) => {
 
          // verification error -> unauthorized request
