@@ -28,9 +28,6 @@ define([
 
     connection.on('requestedTriggerEventDefinition',
     function(eventDefinitionModel) {
-        console.log('=====EVENTDEFINITIONMODEL======');
-        console.log(eventDefinitionModel);
-        
         if(eventDefinitionModel){
 
             eventDefinitionKey = eventDefinitionModel.eventDefinitionKey;
