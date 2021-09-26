@@ -27,7 +27,7 @@
             "body": "",
             "format": "true",
             "useJwt": false,
-            "timeout": 2000
+            "timeout": 10000
         }
     },
     "configurationArguments": {
@@ -38,7 +38,7 @@
             "body": "",
             "format": "json",
             "useJwt": false,
-            "timeout": 2000
+            "timeout": 10000
        },
        "publish": {
            "url": "https://mms-210925.herokuapp.com/journeybuilder/publish",
@@ -46,7 +46,7 @@
             "body": "",
             "format": "json",
             "useJwt": false,
-            "timeout": 2000
+            "timeout": 10000
        },
        "validate": {
            "url": "https://mms-210925.herokuapp.com/journeybuilder/validate",
@@ -54,7 +54,7 @@
             "body": "",
             "format": "json",
             "useJwt": false,
-            "timeout": 2000
+            "timeout": 10000
        },
        "stop": {
            "url": "https://mms-210925.herokuapp.com/journeybuilder/stop",
@@ -62,7 +62,7 @@
             "body": "",
             "format": "json",
             "useJwt": false,
-            "timeout": 2000
+            "timeout": 10000
        }
     },
     "wizardSteps": [
