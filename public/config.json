@@ -25,13 +25,13 @@
             "url": "https://mms-210925.herokuapp.com/journeybuilder/execute",
             "verb": "POST",
             "body": "",
-            "format": "json",
+            "format": "true",
             "useJwt": false,
             "timeout": 2000
         }
     },
     "configurationArguments": {
-      "applicationExtensionKey": "e5a2b753-7426-4764-a41f-4a6c848e53ee",
+      "applicationExtensionKey": "b320840a-cb37-4228-8a13-c8f15bbabc8b",
        "save": {
            "url": "https://mms-210925.herokuapp.com/journeybuilder/save",
             "verb": "POST",
